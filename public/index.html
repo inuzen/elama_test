@@ -6,116 +6,199 @@
   <title>eLama</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/frow@3/dist/frow.min.css">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
   <header class="header">
     <div class="header__container">
       <div class="frow centered">
-        <div class="header__icon-container">
+
+        <div class="header__icon-container col-md-1-4 text-left">
+          <img src="./icons/logo.svg" alt="">
         </div>
-        <nav class="header__navigation">
+
+        <nav class="header__navigation col-md-2-4">
           <ul class="header__navigation-list">
-            <li class="header__navigation-list-item"><a class="header__navigation-link" href="!#">С чего начать</a></li>
-            <li class="header__navigation-list-item"><a class="header__navigation-link" href="!#">Инструменты</a></li>
-            <li class="header__navigation-list-item"><a class="header__navigation-link" href="!#">Услуги</a></li>
+            <li class="header__navigation-list-item"><a class="header__navigation-link text-lead text-main-color" href="#!">С чего начать</a></li>
+            <li class="header__navigation-list-item"><a class="header__navigation-link text-lead text-main-color" href="#!">Инструменты</a></li>
+            <li class="header__navigation-list-item"><a class="header__navigation-link text-lead text-main-color" href="#!">Услуги</a></li>
           </ul>
         </nav>
-        <div class="header__button-container">
+
+        <div class="header__button-container col-md-1-4 text-right">
           <div class="frow">
-            <button class="btn btn-small btn-blue" type="button" name="button">Вход</button>
+            <button class="btn btn-normal" type="button" name="button">Вход</button>
           </div>
         </div>
       </div>
     </div>
   </header>
+
   <main class="main">
 
     <section class="main__content-block bg-grey">
-      <div class="frow centered">
-        <span class="main__text text-big">Возьмем заботу о вашей интернет-рекламе на себя</span>
+      <div class="frow column-center">
+        <span class="main__text text-h1 text-main-color">Возьмем заботу о вашей</span>
+        <span class="main__text text-h1 text-main-color">интернет-рекламе на себя</span>
       </div>
     </section>
 
     <div class="bubble">
       <div class="frow">
-        <div class="col-md-2-3">
-          <span class="bubble__text text-medium">Поможем найти покупателей с помощью контекстной и таргетированной рекламы и расскажем о результатах на понятном языке.</span>
+        <div class="col-md-2-3 text-left">
+          <span class="bubble__text text-lead text-sec-color">Поможем найти покупателей с помощью
+контекстной и таргетированной рекламы
+и расскажем о результатах на понятном языке.</span>
         </div>
         <div class="col-md-1-3">
-          <div class="frow column">
-            <button class="btn btn-big btn-green" type="button" name="button">Заполнить бриф</button>
-          <div class="bubble__link link-wrapper">
-            <a href="!#" class="bubble__link link-consult">Получить консультацию</a>
+          <div class="frow direction-column justify-between items-center height-100">
+            <button class="btn btn-big" type="button" name="button">Заполнить бриф</button>
+            <div class="bubble__link link-wrapper">
+              <a href="#!" class="bubble__link link text-main">Получить консультацию</a>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
 
-    <section class="main__content-block">
-      <div class="frow align-start">
-        <span class="main__text text-big">Ведем конекстную и таргетированную рекламу</span>
+    <section class="main__content-info">
+
+      <div class="main__text-header text-left">
+        <span class="text text-h1 text-main-color">Ведем контекстную и таргетированную рекламу</span>
       </div>
 
       <div class="main__info-block">
-        <div class="frow content-between">
+        <div class="frow row-between">
           <div class="info">
             <div class="frow column-start">
               <div class="info__icon-wrapper">
-                <span class="info__icon icon-imac icon-green" />
+                <img src="./icons/imac.svg" alt="imac icon">
               </div>
-              <p class="info__text text-medium">Привлекаем целевой траффик на сайт</p>
-              <p class="info__text text-small">Создаем и оптимизируем рекламные кампании с учетом особенностей вашего бизнеса, чтобы вы получали максимум потенциальных клиентов</p>
+              <p class="info__text text-lead text-500 text-main-color">Привлекаем целевой траффик на сайт</p>
+              <p class="info__text text-main text-sec-color">Создаем и оптимизируем рекламные кампании с учетом особенностей вашего бизнеса, чтобы вы получали максимум потенциальных клиентов</p>
             </div>
           </div>
           <div class="info">
             <div class="frow column-start">
               <div class="info__icon-wrapper">
-                <span class="info__icon icon-student icon-green" />
+                <img src="./icons/student.svg" alt="student icon">
               </div>
-              <p class="info__text text-medium">Совершенствуем нашу работу</p>
-              <p class="info__text text-small">Используем все возможности рекламных систем и eLama для результативной работы с рекламными кампаниями</p>
+              <p class="info__text text-lead text-500 text-main-color">Совершенствуем нашу работу</p>
+              <p class="info__text text-main text-sec-color">Используем все возможности рекламных систем и eLama для результативной работы с рекламными кампаниями</p>
             </div>
           </div>
           <div class="info">
             <div class="frow column-start">
               <div class="info__icon-wrapper">
-                <span class="info__icon icon-imac icon-green" />
+                <img src="./icons/stats.svg" alt="stats icon">
               </div>
-              <p class="info__text text-medium">Помогаем стать эффективнее</p>
-              <p class="info__text text-small">Выбираем метрики в соответствии с вашими бизнес-задачами и понятно рассказываем о результатах рекламы</p>
+              <p class="info__text text-lead text-500 text-main-color">Помогаем стать эффективнее</p>
+              <p class="info__text text-main text-sec-color">Выбираем метрики в соответствии с вашими бизнес-задачами и понятно рассказываем о результатах рекламы</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-      <section class="main__content-block analytics">
-        <div class="frow row-between">
-          <div class="analytics__image-wrapper image-macbook col-md-1-2">
-            <img src="./img/macbook.png" alt="">
-          </div>
-          <div class="analytics__content">
-            <div class="frow column content-between">
-                <p class="main__text text-big">Настроим системы веб-аналитики или доработаем текущие настройки</p>
-                <p class="main__text text-small">Создадим цели, события и свяжем системы аналитики с рекламными системами, чтобы вы получали правильные данные</p>
-                <div class="anlytics__buttons">
-                  <div class="frow row-between">
-                    <button class="btn btn-big btn-green" type="button" name="button">Заполнить бриф</button>
-                    <div class="analytics__link link-wrapper">
-                      <a href="!#" class="analytics__link link-consult">Получить консультацию</a>
-                    </div>
-                  </div>
+    <section class="main__content-block analytics">
+      <div class="frow row-between">
+
+        <div class="analytics__image-wrapper col-md-1-2">
+          <img class="image" src="./img/mac-image.png" alt="">
+        </div>
+
+        <div class="analytics__content col-md-1-2">
+          <div class="frow centered-column ">
+            <p class="main__text-header margin60 text-h1 text-main-color">Настроим системы веб-аналитики или доработаем текущие настройки</p>
+            <p class="main__text text-main text-sec-color">Создадим цели, события и свяжем системы аналитики с рекламными системами, чтобы вы получали правильные данные</p>
+            <div class="anlytics__buttons width-100">
+              <div class="frow row-start">
+                <button class="btn btn-big" type="button" name="button">Заполнить бриф</button>
+                <div class="analytics__link link-wrapper">
+                  <a href="#!" class="analytics__link link text-main">Получить консультацию</a>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
+    <section class="main__content-block promotion bg-grey">
+      <div class="promotion__container">
+        <div class='frow centered'>
+
+          <div class="promotion__title">
+            <div class='frow column-start'>
+              <span class="main__text-header margin40 text-h1 text-main-color text-left">
+                Бесплатная стартовая кампания
+              </span>
+              <button class="btn btn-big">Заполнить бриф</button> </div>
+          </div>
+          <p class="promotion__first-p text-main-text-sec-color col-md-1-3">Для клиентов с любыми бюджетами создадим стартовую кампанию бесплатно. Подберем ключи, напишем объявления, настроим инструменты автоматизации.</p>
+          <p class="promotion__second-p text-main-text-sec-color col-md-1-3">Для этого пополните баланс на 10 000 рублей и заполните бриф</p>
+        </div>
+
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class=footer>
+    <div class="footer_container-block">
+      <div class="frow direction-column">
+        <div class="footer__link-row">
+          <div class="frow">
+            <div class="frow row-between col-md-1-2">
+              <a href="#!" class="footer__link link text-lead ">С чего начать</a>
+              <a href="#!" class="footer__link link text-lead ">Инструменты</a>
+              <a href="#!" class="footer__link link text-lead ">Агентам и фрилансерам</a>
+            </div>
+            <div class="col-md-1-2 text-center">
+              <a href="#!" class="footer__link link text-lead new-window">Помощь</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__contact-row">
+          <div class="frow row-between">
+            <div class="footer__contacts col-md-4-5">
+              <div class="frow row-between centered">
+                <div class="footer__icon-wrapper">
+                  <img src="./icons/elama-icon.svg" alt="elama icon color">
+                </div>
+                <div class="footer__contact-item">
+                  <span class="contact__phone text-lead text-dark-main-color">
+                    8 (499) 270-27-90
+                  </span>
+                  <span class="text-main text-dark-sec-color">Москва</span>
+                </div>
+                <div class="footer__contact-item">
+                  <span class="contact__phone text-lead text-dark-main-color">
+                    8 (812) 318-40-54
+                  </span>
+                  <span class="text-main text-dark-sec-color">Санкт-Петербург</span>
+                </div>
+                <div class="footer__contact-item">
+                  <span class="contact__phone text-lead text-dark-main-color">
+                    8 (800) 500-31-90
+                  </span>
+                  <span class="text-main text-dark-sec-color">Звонки по России</span>
+                </div>
+                <div class="footer__contact-item">
+                  <a href="#!" class="footer__link contact__phone link text-main">milo@elama.ru</a>
+                  <a href="#!" class="footer__link link text-main">Реквизиты</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__socials col-md-1-5">
+              <div class="frow row-between">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
   </footer>
 </body>
 
