@@ -60,7 +60,7 @@ body {
 
 .btn-big {
   background-color: var(--green);
-  padding: 10px 40px;
+  padding: 17px 40px;
   min-width: 180px;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 .btn-normal {
-  padding: 8px 30px;
+  padding: 7px 30px;
   min-width: 100px;
   background-color: var(--blue);
 }
@@ -174,7 +174,7 @@ body {
 .header__container{
   max-width: 1160px;
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 17px 0;
 }
 .header__navigation-list {
   list-style-type: none;
