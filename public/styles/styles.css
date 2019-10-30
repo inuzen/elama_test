@@ -44,6 +44,9 @@ body {
   font-size: 14px;
   line-height: 26px;
 }
+p{
+  margin:0;
+}
 
 /*Buttons*/
 .btn {
@@ -153,6 +156,9 @@ body {
   padding: 120px 0;
   z-index: 1;
 }
+.bg-grey-custom{
+  padding: 104px 0 160px 0;
+}
 .main__text-header {
   margin-bottom: 80px;
 }
@@ -199,7 +205,7 @@ body {
 /*bubble*/
 .bubble {
   max-width: 690px;
-  padding: 38px 40px;
+  padding: 0 40px;
   border-radius: 5px;
   box-shadow: 0px 8px 24px rgba(29, 29, 57, 0.2);
   margin: 0 auto;
@@ -209,8 +215,15 @@ body {
   position: relative;
 }
 
-.bubble::after {}
+.bubble__text-wrapper{
+  margin-top: 46px;
+  margin-bottom: 45px;
+}
 
+.bubble__controls-wrapper{
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
 .bubble__text {
   white-space: pre
 }
@@ -223,8 +236,12 @@ body {
   width: 50px;
   height: 50px;
 }
+.info__text.text-lead{
+  margin-top: 30px
+}
 .info__text.text-main{
-  margin-bottom: 40px;
+
+  margin-top: 10px;
 }
 
 /*Analytics block*/
@@ -236,7 +253,9 @@ body {
 .analytics__image-wrapper{
   max-width: 395px;
   max-height: 350px;
-
+}
+.analytics__text.text-main{
+  margin-bottom: 40px;
 }
 .anlytics__buttons .btn{
   margin-right: 30px;
@@ -256,7 +275,7 @@ body {
 }
 .promotion__title{
   position: relative;
-  margin-right:100px;
+  margin-right:105px;
   width: 33%;
   max-width: 365px;
 }
@@ -264,14 +283,14 @@ body {
   content: url('../icons/bent-arrow.svg');
   background-color: var(--dark-bg-sec-test);
   position: absolute;
-  transform: translate(225px,-215px);
+  transform: translate(227px,-227px);
 }
 
 .promotion__first-p{
   margin-right: 145px;
   position: relative;
   width: 33%;
-  max-width: 257px;
+  max-width: 280px;
 }
 .promotion__first-p::after{
   content: url('../icons/staright-arrow.svg');
@@ -281,7 +300,7 @@ body {
 
 .promotion__second-p{
   width: 33%;
-  max-width: 200px;
+  max-width: 230px;
 }
 
 /*Footer styles*/
